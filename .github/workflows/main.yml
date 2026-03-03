@@ -1,67 +1,16 @@
-[
-	{
-		"key": "datr",
-		"value": "u96maa7sYZvlWXOOC11MNHfs",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "sb",
-		"value": "vN6maZSql8TyduYGVmT3mCzk",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "m_pixel_ratio",
-		"value": "1.9812500476837158",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "wd",
-		"value": "546x1212",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "c_user",
-		"value": "61571281296029",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "xs",
-		"value": "17%3A4V_H7iMm1_70vw%3A2%3A1772543711%3A-1%3A-1",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
-	{
-		"key": "fr",
-		"value": "0gHIQzYyvrbJ40UcQ.AWdrpGVm8yRJv7TVCi3w1tILe84iJfa_gS6c2r25_Uxs1op5LfA.Bppt68..AAA.0.0.Bppt7i.AWfo6zWHV2bG6QeiT-YA1kC0Zcs",
-		"domain": "facebook.com",
-		"path": "/",
-		"hostOnly": false,
-		"creation": "2026-03-03T13:20:05.174Z",
-		"lastAccessed": "2026-03-03T13:20:05.174Z"
-	},
+module.exports = {  
+  config: {  
+    name: "command_name",                // 🔹 Command Name  
+    version: "1.0",                      // 🔸 Version  
+    author: "xnil6x",                    // 👨‍💻 Developer  
+    role: 4,                             // 🔐 Required Access Level  
+    usePrefix: true,                     // ⛓️ Prefix Requirement  
+    description: "Command Description",   // 📝 Functionality  
+    guide: "Usage Guide",                // 📘 Command Syntax  
+    category: "Utility",                 // 🧰 Function Category  
+    cooldowns: 3                         // ⏳ Execution Delay (seconds)  
+  }  
+};	},
 	{
 		"key": "locale",
 		"value": "en_US",
