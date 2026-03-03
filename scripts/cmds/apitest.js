@@ -1,17 +1,19 @@
 const axios = require("axios");
 
 module.exports = {
- config: {
- name: "apitest",
- version: "1.0",
- author: "xnil6x",
- role: 4,
- usePrefix: false,
- description: "Test any public API via GET or POST",
- guide: "/apitest get <url> | /apitest post <url> <body>",
- category: "utility",
- cooldowns: 3
- },
+ module.exports = {  
+  config: {  
+    name: "command_name",                // 🔹 Command Name  
+    version: "1.0",                      // 🔸 Version  
+    author: "xnil6x",                    // 👨‍💻 Developer  
+    role: 4,                             // 🔐 Required Access Level  
+    usePrefix: true,                     // ⛓️ Prefix Requirement  
+    description: "Command Description",   // 📝 Functionality  
+    guide: "Usage Guide",                // 📘 Command Syntax  
+    category: "Utility",                 // 🧰 Function Category  
+    cooldowns: 3                         // ⏳ Execution Delay (seconds)  
+  }  
+};
 
  onStart: async function ({ api, event, args }) {
  const method = args[0]?.toLowerCase();
